@@ -82,6 +82,17 @@ h6 {
 	color: black;
 }
 
+.alert{
+	padding: 10;
+	border-style: dotted;
+	border-color: red;
+	border: 1;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12;
+	color: red;
+	text-align: left;
+}
+
 
 
 
