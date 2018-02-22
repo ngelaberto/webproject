@@ -71,5 +71,17 @@ h6 {
 }
 
 
+#footer{
+	text-align: center;
+	border-color: blue;
+	border-style: dashed ;
+	border-width: 1;
+	padding: 20;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 15;
+	color: black;
+}
+
+
 
 
