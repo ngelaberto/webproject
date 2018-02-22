@@ -17,9 +17,15 @@ h2 {
 	color: blue;
 }
 
+h3 {
+	font-family: arial, hervetica, sans-serif;
+	font-size: 20;
+	color: blue;
+}
+
 h4 {
 	font-family: arial, helvetica, sans-serif;
-	font-size: 20;
+	font-size: 15;
 	color: red;
 }
 h6 {
@@ -38,6 +44,19 @@ h6 {
 	font-family: arial, helvetica, sans-serif; 
 	font-size: 30;
 	color: blue;
+	font-weight: bold;
+}
+
+#subtitle{
+	text-align: center;
+	border-color: blue;
+	border-style: solid;
+	border-width: 1;
+	padding: 20;
+	font-family: arial, helvetica, sans-serif; 
+	font-size: 20;
+	color: blue;
+	font-weight: bold;
 }
 
 #content{
