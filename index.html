@@ -11,7 +11,7 @@
   <link rel="stylesheet" type="text/css" href="general.css">
   <meta name="generator" content="Bluefish 2.2.6" >
   <meta name="author" content="narcis" >
-  <meta name="date" content="2018-02-24T10:43:10+0100" >
+  <meta name="date" content="2018-02-24T12:11:15+0100" >
   <meta name="copyright" content="">
   <meta name="keywords" content="">
   <meta name="description" content="">
@@ -25,6 +25,9 @@
             function square(){
                       var num = document.getElementById("n1");
                       num.value = num.value * num.value;
+            function inverse(){
+                      var num = document.getElementById("n1");
+                      num.value = 1 / num.value;
                    }
   </script>
 </head>
@@ -45,13 +48,12 @@
 
     <p>1. Se ha creado una rama hotfix en la que se ha corregido el
     error.</p>
-  </div>
 
   <div id="content">
     <table>
       <tr>
         <td>
-          <h6>número:</h6>
+          <h6>Número:</h6>
         </td>
 
         <td>
@@ -73,6 +75,8 @@
         <td>
           <h6><input type="button" name="square" value="x^2" onclick=
           "square()"></h6>
+          <h6><input type="button" name="inverse" value="1/x" onclick=
+          "inverse()"></h6>
         </td>
       </tr>
     </table>
